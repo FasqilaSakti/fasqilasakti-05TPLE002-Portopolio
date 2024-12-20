@@ -1,0 +1,255 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasqila Sakti Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d6315fe94.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav> 
+            <div class="header-text">
+                <p>Student</p>
+                <h1>Hi, I'm <span>Fasqila Sakti</span><br>From Universitas Pamulang</h1>
+            </div>  
+        </div>        
+    </div>
+    <!-----------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                   <p>Let me introduce myself, I am a 5th semester student at Pamulang University, majoring in Informatics Engineering. Currently, I also work at PT Bank DKI in the Legal and Loan Documentation division as a member
+                     of the Media Transfer team. In this role, I am responsible for managing, digitizing, and archiving loan documents, as well as ensuring that the documentation process runs efficiently and in accordance with applicable regulations. As a student, I continue to be committed to developing competencies in the field of information technology to support my performance in the world</p> 
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Hobby')">Hobby</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Hobby">
+                        <ul>
+                            <li><span>Sports</span><br>Playing soccer, basketball, or other competitive games</li>
+                            <li><span>Photography</span><br>Capturing moments with creativity</li>
+                            <li><span>Fishing</span><br>Relaxing and enjoying nature while fishing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Excel</span><br>make a report on monthly</li>
+                            <li><span>Word</span><br>make correspondence</li>
+                            <li><span>PPT</span><br>
+                                create report results using ppt</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2008-2014</span><br>Im School In SDIT Al-Farabi</li>
+                            <li><span>2014-2017</span><br>Im School In SMP Al-FArabi</li>
+                            <li><span>2017-2020</span><br>Im School In SMK Teknindo Jaya</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-----------Services------------------->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Excel</h2>
+                    <p></p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Word</h2>
+                    <p></p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>PPT</h2>
+                    <p></p>
+                    <a href="#">learn more</a>
+                </div>
+                
+            </div>
+
+        </div>
+     </div>
+
+    <!------portfolio------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work2.jpeg">
+                    <div class="layer">
+                        <h3>Form Login</h3>
+                        <p>Ini Tugas Pembuatan Form Login</p>
+                        <a href="https://fasqila-sakti-05-tple-002-form-login1.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/kalkulatorphone.png">
+                    <div class="layer">
+                        <h3>kalkulator</h3>
+                        <p>Ini Tugas Pembuatan kalkulator</p>
+                        <a href="https://fasqilasakti-05-tple-002-kalkulator.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/snakephone.png">
+                    <div class="layer">
+                        <h3>Game Snake</h3>
+                        <p>Ini Tugas Pembuatan Game Snake</p>
+                        <a href="https://fasqilasakti-05-tple-002-snake-game.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/chartphone.png">
+                    <div class="layer">
+                        <h3>Chart</h3>
+                        <p>Dashboard Penjualan</p>
+                        <a href="https://fasqilasakti-05-tple-002-chart.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/sololearnhtml.png">
+                    <div class="layer">
+                        <h3>HTML</h3>
+                        <p>Sertifikat Sololearn HTML</p>
+                        <a href="https://www.sololearn.com/en/certificates/CC-HECSGABS" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/sololearncss.png">
+                    <div class="layer">
+                        <h3>CSS</h3>
+                        <p>Sertifikat Sololearn CSS</p>
+                        <a href="https://www.sololearn.com/en/certificates/CC-IEMTIKBX" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/sololearnjs.png">
+                    <div class="layer">
+                        <h3>JavaScript</h3>
+                        <p>Sertifikat Sololearn JavaScript</p>
+                        <a href="https://www.sololearn.com/en/certificates/CC-4S4YS2SY" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/tokosayur.png">
+                    <div class="layer">
+                        <h3>Wordpress</h3>
+                        <p>Toko Online - Buah dan Sayuran</p>
+                        <a href="https://kelompok5.tple002.my.id/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+ <!------Contact------------------>
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Fasqilasakti84@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>088290396606</p>
+                <div class="social-Icons">
+                    <a href="https://www.instagram.com/uwaseyy_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/?lang=en-id" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.facebook.com/login.php/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/fotosaya.jpg" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa-regular fa-copyright"></i>Fasqila . made with <i class="fa-solid fa-heart"></i> by easy Tutorial</p>
+    </div>
+ </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")<!----untuk membuat transisi underline on click->
+            document.getElementById(tabname).classList.add("active-tab"); 
+        }   
+
+    </script>
+    <script>
+        <!----------Membuat function buka tutup menu-------->
+        var sidemeu = document.getElementById("sidemenu"); 
+
+        function openmenu(){
+            sidemeu .style.right = "0";
+        }
+        function closemenu(){
+            sidemeu .style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyBWdvUD6U_0M_ioBALRrCFCsLfia5sDuu3lCkmT_YIjy2vRp-rfPIFk1zG_5o2mjhFYg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+ </body>
+ </html>
